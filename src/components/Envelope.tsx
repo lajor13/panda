@@ -6,7 +6,6 @@ const Envelope = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [showLetter, setShowLetter] = useState(false);
   const envRef = useRef<HTMLDivElement | null>(null);
-  const letterRef = useRef<HTMLDivElement | null>(null);
   const handleClick = async () => {
     setIsClicked(true); // Trigger the heart animation when the envelope is clicked
     setTimeout(() => {

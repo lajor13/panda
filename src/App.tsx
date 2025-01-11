@@ -12,7 +12,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       [
-        <Route path="/" element={<RootLayout />}>
+        <Route path="/panda/" element={<RootLayout />}>
           <Route index element={<Envelope />} />
           <Route path="home" element={<Home />} />
         </Route>

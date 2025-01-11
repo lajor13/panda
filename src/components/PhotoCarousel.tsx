@@ -7,14 +7,6 @@ import { images } from "../constants";
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import { useRef } from 'react';
 
-type ArrowProps = {
-    className: string;
-    style: React.CSSProperties;
-    onClick: () => void;
-}
-
-
-
 
 
 const PhotoCarousel = () => {
