@@ -1,3 +1,4 @@
+import Angel from './assets/images/angell.jpg'
 import Image1 from './assets/images/img1.jpg'
 import Image10 from './assets/images/img10.jpg'
 import Image2 from './assets/images/img2.jpg'
@@ -9,6 +10,7 @@ import Image7 from './assets/images/img7.jpg'
 import Image8 from './assets/images/img8.jpg'
 
 const images = [
+    Angel,
     Image1,
     Image2,
     Image3,

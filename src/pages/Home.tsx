@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-4 pb-20 ">
       <div className="bg-white px-5 py-2 rounded-[4px] shadow-sm text-[20px] mb-[80px]">
-        <p>To: The Most Beautiful Gf </p>
+        <p>To: Mero Angel </p>
         <p>From: Kumbey</p>
       </div>
       <div className="w-full  flex justify-around mb-[40px] relative">
