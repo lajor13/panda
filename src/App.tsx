@@ -15,6 +15,7 @@ function App() {
         <Route path="/panda/" element={<RootLayout />}>
           <Route index element={<Envelope />} />
           <Route path="home" element={<Home />} />
+          <Route path="*" element={<Envelope />} />
         </Route>
       ]
     )
