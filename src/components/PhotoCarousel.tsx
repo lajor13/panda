@@ -2,14 +2,13 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { images } from "../constants";
 
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import { useRef } from 'react';
 
 
 
-const PhotoCarousel = () => {
+const PhotoCarousel = ({ images }: { images: string[] }) => {
 
     let sliderRef = useRef<Slider | null>(null);
     const next = () => {

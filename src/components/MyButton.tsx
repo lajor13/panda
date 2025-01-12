@@ -12,7 +12,7 @@ const MyButton = ({ leadingIcon, trailingIcon, text, onClick }: MyButtonProps) =
 
 
     return (
-        <div className="cursor-pointer group relative my-[76px]"
+        <div className="cursor-pointer group relative my-[44px]"
             onClick={onClick}>
             <img className="absolute top-[-1.3rem] left-[-1.5rem] hidden group-hover:block"
                 src={Point} alt="" />
